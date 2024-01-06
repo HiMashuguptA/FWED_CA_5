@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* changing background color based on condition */
+.main1{
+  background-color: white;
+}
+.main{
+  background-color: black;
+}
+/* navbar stylings  */
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px; 
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+.kalvium-logo {
+  width: 44px;
+  height: 44px;
+}
+.Kalvium-text {
+  color: #E03635;
+  font-size: 38px;
+  margin: 0;
+}
+.Search-container {
+  position: relative;
+}
+.ques{
+  filter: invert(100%);
+}
+.search-input {
+  padding: 15px 35px 10px 40px;
+  width: 632px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background: url(./assets/search.png) no-repeat left 10px center;
+  background-size: 14px 14px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.search-input1 {
+  padding: 15px 35px 10px 40px;
+  width: 632px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background: url(./assets/search1.png) no-repeat left 10px center;
+  background-size: 14px 14px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.class-register {
+  border: 3px solid black;
+  width: 170px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 110px;
+}
+.class-register1 {
+  border: 3px solid rgb(255, 6, 6);
+  width: 170px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 110px;
+  background-color: white;
+  transition: background-color 0.4s ease-in-out;
+  border-radius: 20px;
+}
+.class-register1:hover{
+  background-color: antiquewhite;
+}
+.Register-text {
+  color: #FF6B62;
+  margin: 0;
+}
+.moon{
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+.moon-div{
+  width: 50px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: black;
+  cursor: pointer;
+  border: 2px solid green;
+}
+.sun{
+  width: 20px;
+  height: 20px;
+}
+.sun-div{
+  width: 50px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.question-mark-png {
+  width: 24px;
+  cursor: alias;
+  margin: 7px 0px 0 23px;
+  display: none;
+}
+.register-collection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+}
+.search-register{
+  display: flex;
+}
+.moon-ques{
+  display: flex;
+}
+
+
+/*Book collection div  CSS */
+
+.lock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.lock1{
+  color: white;
+}
+.book-class{
+  cursor: pointer;
+  background-color: #000000c7;
+  width: 250px;
+  height: 400px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.8s ease-in-out;
+  box-shadow: 0 0 20px rgb(255, 14, 14);
+  transition: transform 0.45s ease;
+  overflow-x: hidden;
+}
+.book-class1{
+  cursor: pointer;
+  background-color: #000000c7;
+  width: 250px;
+  height: 400px;
+  margin-top: -160%;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease-in-out;
+  box-shadow: 0 0 20px rgb(255, 14, 14);
+  transition: transform 0.45s ease;
+}
+.book-class2{
+  cursor: pointer;
+  background-color: #f3f3f3c7;
+  width: 250px;
+  height: 400px;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease-in-out;
+  box-shadow: 0 0 20px rgb(255, 14, 14);
+  transition: transform 0.45s ease;
+}
+
+/* Hover effects */ 
+
+.book-class2:hover{
+  transform: scale(1.1,1.11);
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgb(22, 7, 239);
+}
+.book-class:hover{
+  background-color: #59c82602;
+  transform: scale(1.1,1.11);
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgb(22, 7, 239);
+}
+.book-class1:hover{
+  transform: scale(1.1,1.11);
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgb(22, 7, 239);
+}
+.book-class-no-effect{
+  cursor: pointer;
+  background-color: #000000c7;
+  width: 250px;
+  height: 400px;
+  margin-top: 10%;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgb(255, 14, 14);
+}
+
+/* making grid of the data */
+
+.Book-collection{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  grid-gap: 80px;
+  text-align: left;
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 60px;
+  padding-bottom: 40px;
+  height: 140vh;
+}
+.book-image{
+  width: 200px;
+  height: 230px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.book-title {
+  margin-top: 12px;
+  width: 333px;
+  padding: 0 80px 0 65px;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 115px;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+.author-name {
+  padding: 0 40px 0 40px;
+}
+/* Blur effect */
+.blur{
+  filter: blur(9px);
+}
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  text-decoration: underline;
+}
+.errorwhite{
+  color: white;
+}
+
+
+
+/* Responsive CSS */
+
+@media screen and (max-width:400px){
+  .kalvium-logo{
+    width: 20px;
+    height: 20px;
+  }
+  .Kalvium-text{
+    font-size: 20px;
+  }
+  .search-input{
+    width: 300px;
+    height: 23px;
+    font-size: 10px;
+  }
+  .moon-ques{
+    display: flex;
+    
+  }
+  .navbar{
+    flex-direction: column;
+    height: 160px;
+  }
+  .class-register{
+    width: 92px;
+    height: 27px;
+    font-size: 13px;
+  }
+  .question-mark-png{
+    display: none;
+  }
+  .register-collection{
+    width: 225px;
+    flex-direction: row-reverse;
+  }
+  .moon-div{
+    width: 30px;
+    height: 24px;
+    border: 1px solid green;
+    border-radius: 20px;
+  }
+  .moon{
+    width: 13px;
+    height: 13px;
+  }
+  .book-class2{
+    width: 220px;
+    height: 300px;
+  }
+  .book-image{
+    width: 190px;
+    height: 180px;
+  }
+  .book-title{
+    font-size: 14px;
+  }
+  .author-name{
+    font-size: 14px;
+  }
+  .Book-collection{
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+  }
+  .book-class1{
+    margin-top: 0px;
+    width: 220px;
+    height: 300px;
+  }
+  .search-input1{
+    width: 300px;
+    height: 23px;
+    font-size: 10px;
+    color: white;
+  }
+  .class-register1{
+    width: 92px;
+    height: 27px;
+    font-size: 13px;
+  }
+  .sun-div{
+    width: 30px;
+    height: 27px;
+    border: 1px solid red;
+  }
+  .sun{
+    width: 13px;
+    height: 13px;
+  }
+  .book-class{
+    width: 220px;
+    height: 300px;
+  }
+}
